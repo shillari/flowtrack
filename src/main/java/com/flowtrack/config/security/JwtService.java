@@ -17,7 +17,7 @@ import jakarta.annotation.PostConstruct;
 
 @Service
 public class JwtService {
-  private final static String SECRET_JWT_KEY = "17IifXPCC1ulTM763mQC9rF3T0gGu3tdLP/gIfXOlgk=";
+  private final static String SECRET_JWT_KEY = "";
 
   private SecretKey key;
 
